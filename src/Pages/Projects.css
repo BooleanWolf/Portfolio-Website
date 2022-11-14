@@ -1,0 +1,32 @@
+.projects {
+    height: fit-content;
+
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: whitesmoke;
+   
+    display: flex;
+}
+
+
+.projects__tags{
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 10vw;
+}
+
+.projects__lists{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 90vw;
+}
+
+.pro__cat{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: coral;
+}

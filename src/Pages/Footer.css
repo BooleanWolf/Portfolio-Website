@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #24252a;
+}
+
+.nav__text{
+    margin: 5px;
+    color: wheat;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.project__card{
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    /* border: 1px solid #000000; */
+    margin: 10px;
+}
+
+.pcard__title{
+    padding: 5px;
+}
+
+.pcard__title h2{
+    margin-bottom: 7px;
+}
+
+.pcard__img img{
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.pcard__tags{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: small;
+}
+
+.pcard__description{
+    padding: 5px;
+    height: 110px;
+}
+
+.pcard__description p {
+    font-family: 'Kanit', sans-serif;
+}
+
+.pcard__footer{
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 7px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pcard__star{
+    font-family: 'Dancing Script', cursive;
+    font-size: small;
+}
+
+.hide{
+    display: none;
+}
